@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		639C05FD21244A0B00090E5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639C05FC21244A0B00090E5D /* AppDelegate.swift */; };
 		639C05FF21244A0B00090E5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639C05FE21244A0B00090E5D /* ViewController.swift */; };
-		639C060221244A0B00090E5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639C060021244A0B00090E5D /* Main.storyboard */; };
+		639C060221244A0B00090E5D /* Florists.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639C060021244A0B00090E5D /* Florists.storyboard */; };
 		639C060421244A0E00090E5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 639C060321244A0E00090E5D /* Assets.xcassets */; };
 		639C060721244A0E00090E5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639C060521244A0E00090E5D /* LaunchScreen.storyboard */; };
 		639C061221244A0E00090E5D /* FloristsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639C061121244A0E00090E5D /* FloristsAppTests.swift */; };
@@ -37,7 +37,7 @@
 		639C05F921244A0B00090E5D /* FloristsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloristsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		639C05FC21244A0B00090E5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		639C05FE21244A0B00090E5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		639C060121244A0B00090E5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		639C060121244A0B00090E5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Florists.storyboard; sourceTree = "<group>"; };
 		639C060321244A0E00090E5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		639C060621244A0E00090E5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		639C060821244A0E00090E5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,7 +99,7 @@
 			children = (
 				639C05FC21244A0B00090E5D /* AppDelegate.swift */,
 				639C05FE21244A0B00090E5D /* ViewController.swift */,
-				639C060021244A0B00090E5D /* Main.storyboard */,
+				639C060021244A0B00090E5D /* Florists.storyboard */,
 				639C060321244A0E00090E5D /* Assets.xcassets */,
 				639C060521244A0E00090E5D /* LaunchScreen.storyboard */,
 				639C060821244A0E00090E5D /* Info.plist */,
@@ -231,7 +231,7 @@
 			files = (
 				639C060721244A0E00090E5D /* LaunchScreen.storyboard in Resources */,
 				639C060421244A0E00090E5D /* Assets.xcassets in Resources */,
-				639C060221244A0B00090E5D /* Main.storyboard in Resources */,
+				639C060221244A0B00090E5D /* Florists.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,12 +293,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		639C060021244A0B00090E5D /* Main.storyboard */ = {
+		639C060021244A0B00090E5D /* Florists.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				639C060121244A0B00090E5D /* Base */,
 			);
-			name = Main.storyboard;
+			name = Florists.storyboard;
 			sourceTree = "<group>";
 		};
 		639C060521244A0E00090E5D /* LaunchScreen.storyboard */ = {
