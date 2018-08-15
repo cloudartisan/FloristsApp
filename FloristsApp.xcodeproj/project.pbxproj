@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		639C05FD21244A0B00090E5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639C05FC21244A0B00090E5D /* AppDelegate.swift */; };
+		639C05FF21244A0B00090E5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639C05FE21244A0B00090E5D /* ViewController.swift */; };
+		639C060221244A0B00090E5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639C060021244A0B00090E5D /* Main.storyboard */; };
+		639C060421244A0E00090E5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 639C060321244A0E00090E5D /* Assets.xcassets */; };
+		639C060721244A0E00090E5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639C060521244A0E00090E5D /* LaunchScreen.storyboard */; };
+		639C061221244A0E00090E5D /* FloristsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639C061121244A0E00090E5D /* FloristsAppTests.swift */; };
+		639C061D21244A0E00090E5D /* FloristsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639C061C21244A0E00090E5D /* FloristsAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		639C060E21244A0E00090E5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 639C05F121244A0B00090E5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 639C05F821244A0B00090E5D;
+			remoteInfo = FloristsApp;
+		};
+		639C061921244A0E00090E5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 639C05F121244A0B00090E5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 639C05F821244A0B00090E5D;
+			remoteInfo = FloristsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		639C05F921244A0B00090E5D /* FloristsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloristsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		639C05FC21244A0B00090E5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		639C05FE21244A0B00090E5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		639C060121244A0B00090E5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		639C060321244A0E00090E5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		639C060621244A0E00090E5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		639C060821244A0E00090E5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		639C060D21244A0E00090E5D /* FloristsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloristsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		639C061121244A0E00090E5D /* FloristsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloristsAppTests.swift; sourceTree = "<group>"; };
+		639C061321244A0E00090E5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		639C061821244A0E00090E5D /* FloristsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloristsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		639C061C21244A0E00090E5D /* FloristsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloristsAppUITests.swift; sourceTree = "<group>"; };
+		639C061E21244A0E00090E5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		639C05F621244A0B00090E5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639C060A21244A0E00090E5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639C061521244A0E00090E5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		639C05F021244A0B00090E5D = {
+			isa = PBXGroup;
+			children = (
+				639C05FB21244A0B00090E5D /* FloristsApp */,
+				639C061021244A0E00090E5D /* FloristsAppTests */,
+				639C061B21244A0E00090E5D /* FloristsAppUITests */,
+				639C05FA21244A0B00090E5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		639C05FA21244A0B00090E5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				639C05F921244A0B00090E5D /* FloristsApp.app */,
+				639C060D21244A0E00090E5D /* FloristsAppTests.xctest */,
+				639C061821244A0E00090E5D /* FloristsAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		639C05FB21244A0B00090E5D /* FloristsApp */ = {
+			isa = PBXGroup;
+			children = (
+				639C05FC21244A0B00090E5D /* AppDelegate.swift */,
+				639C05FE21244A0B00090E5D /* ViewController.swift */,
+				639C060021244A0B00090E5D /* Main.storyboard */,
+				639C060321244A0E00090E5D /* Assets.xcassets */,
+				639C060521244A0E00090E5D /* LaunchScreen.storyboard */,
+				639C060821244A0E00090E5D /* Info.plist */,
+			);
+			path = FloristsApp;
+			sourceTree = "<group>";
+		};
+		639C061021244A0E00090E5D /* FloristsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				639C061121244A0E00090E5D /* FloristsAppTests.swift */,
+				639C061321244A0E00090E5D /* Info.plist */,
+			);
+			path = FloristsAppTests;
+			sourceTree = "<group>";
+		};
+		639C061B21244A0E00090E5D /* FloristsAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				639C061C21244A0E00090E5D /* FloristsAppUITests.swift */,
+				639C061E21244A0E00090E5D /* Info.plist */,
+			);
+			path = FloristsAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		639C05F821244A0B00090E5D /* FloristsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 639C062121244A0E00090E5D /* Build configuration list for PBXNativeTarget "FloristsApp" */;
+			buildPhases = (
+				639C05F521244A0B00090E5D /* Sources */,
+				639C05F621244A0B00090E5D /* Frameworks */,
+				639C05F721244A0B00090E5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FloristsApp;
+			productName = FloristsApp;
+			productReference = 639C05F921244A0B00090E5D /* FloristsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		639C060C21244A0E00090E5D /* FloristsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 639C062421244A0E00090E5D /* Build configuration list for PBXNativeTarget "FloristsAppTests" */;
+			buildPhases = (
+				639C060921244A0E00090E5D /* Sources */,
+				639C060A21244A0E00090E5D /* Frameworks */,
+				639C060B21244A0E00090E5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				639C060F21244A0E00090E5D /* PBXTargetDependency */,
+			);
+			name = FloristsAppTests;
+			productName = FloristsAppTests;
+			productReference = 639C060D21244A0E00090E5D /* FloristsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		639C061721244A0E00090E5D /* FloristsAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 639C062721244A0E00090E5D /* Build configuration list for PBXNativeTarget "FloristsAppUITests" */;
+			buildPhases = (
+				639C061421244A0E00090E5D /* Sources */,
+				639C061521244A0E00090E5D /* Frameworks */,
+				639C061621244A0E00090E5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				639C061A21244A0E00090E5D /* PBXTargetDependency */,
+			);
+			name = FloristsAppUITests;
+			productName = FloristsAppUITests;
+			productReference = 639C061821244A0E00090E5D /* FloristsAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		639C05F121244A0B00090E5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "David Taylor";
+				TargetAttributes = {
+					639C05F821244A0B00090E5D = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					639C060C21244A0E00090E5D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 639C05F821244A0B00090E5D;
+					};
+					639C061721244A0E00090E5D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 639C05F821244A0B00090E5D;
+					};
+				};
+			};
+			buildConfigurationList = 639C05F421244A0B00090E5D /* Build configuration list for PBXProject "FloristsApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 639C05F021244A0B00090E5D;
+			productRefGroup = 639C05FA21244A0B00090E5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				639C05F821244A0B00090E5D /* FloristsApp */,
+				639C060C21244A0E00090E5D /* FloristsAppTests */,
+				639C061721244A0E00090E5D /* FloristsAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		639C05F721244A0B00090E5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639C060721244A0E00090E5D /* LaunchScreen.storyboard in Resources */,
+				639C060421244A0E00090E5D /* Assets.xcassets in Resources */,
+				639C060221244A0B00090E5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639C060B21244A0E00090E5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639C061621244A0E00090E5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		639C05F521244A0B00090E5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639C05FF21244A0B00090E5D /* ViewController.swift in Sources */,
+				639C05FD21244A0B00090E5D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639C060921244A0E00090E5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639C061221244A0E00090E5D /* FloristsAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639C061421244A0E00090E5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639C061D21244A0E00090E5D /* FloristsAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		639C060F21244A0E00090E5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 639C05F821244A0B00090E5D /* FloristsApp */;
+			targetProxy = 639C060E21244A0E00090E5D /* PBXContainerItemProxy */;
+		};
+		639C061A21244A0E00090E5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 639C05F821244A0B00090E5D /* FloristsApp */;
+			targetProxy = 639C061921244A0E00090E5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		639C060021244A0B00090E5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				639C060121244A0B00090E5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		639C060521244A0E00090E5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				639C060621244A0E00090E5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		639C061F21244A0E00090E5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		639C062021244A0E00090E5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		639C062221244A0E00090E5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FloristsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudartisan.FloristsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		639C062321244A0E00090E5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FloristsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudartisan.FloristsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		639C062521244A0E00090E5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FloristsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudartisan.FloristsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FloristsApp.app/FloristsApp";
+			};
+			name = Debug;
+		};
+		639C062621244A0E00090E5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FloristsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudartisan.FloristsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FloristsApp.app/FloristsApp";
+			};
+			name = Release;
+		};
+		639C062821244A0E00090E5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FloristsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudartisan.FloristsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FloristsApp;
+			};
+			name = Debug;
+		};
+		639C062921244A0E00090E5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FloristsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudartisan.FloristsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FloristsApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		639C05F421244A0B00090E5D /* Build configuration list for PBXProject "FloristsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639C061F21244A0E00090E5D /* Debug */,
+				639C062021244A0E00090E5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		639C062121244A0E00090E5D /* Build configuration list for PBXNativeTarget "FloristsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639C062221244A0E00090E5D /* Debug */,
+				639C062321244A0E00090E5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		639C062421244A0E00090E5D /* Build configuration list for PBXNativeTarget "FloristsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639C062521244A0E00090E5D /* Debug */,
+				639C062621244A0E00090E5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		639C062721244A0E00090E5D /* Build configuration list for PBXNativeTarget "FloristsAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639C062821244A0E00090E5D /* Debug */,
+				639C062921244A0E00090E5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 639C05F121244A0B00090E5D /* Project object */;
+}
